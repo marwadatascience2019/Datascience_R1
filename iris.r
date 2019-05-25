@@ -3,3 +3,5 @@ head(iris)
 
   iris %>%
     filter( Sepal.Width>3.6)
+    iris<- iris(as.na())
+    
