@@ -1,0 +1,2 @@
+head(iris)
+  cor(iris)
