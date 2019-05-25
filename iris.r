@@ -1,2 +1,5 @@
 head(iris)
-  cor(iris)
+  cor(iris$Sepal.Width, iris$Sepal.Length)
+
+  iris %>%
+    filter( Sepal.Width>3.6)
